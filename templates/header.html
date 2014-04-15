@@ -18,11 +18,7 @@
 					<li><a href="#market">{% trans %}Market Forces{% endtrans %}</a></li>
 				</ul>
 			</div>
-			<ul class="nav navbar-nav navbar-right">
-				<li class="{{ "active" if g.get('language', 'en') == "en" }}"><a href="{{ url_for("index") }}">ENGLISH</a></li>
-				<li class="{{ "active" if g.get('language', 'en') == "fr" }}"><a href="{{ url_for("page_fr") }}">FRANÇAIS</a></li>
-				<li class="{{ "active" if g.get('language', 'en') == "de" }}"><a href="{{ url_for("page_de") }}">DEUTSCH</a></li>
-			</ul>
+			
 		</div><!--/.nav-collapse -->
 	</div>
 </div>
